@@ -11,7 +11,7 @@ namespace Bookify.Web.Core.Models
 
 
         public bool Isdeleted { get; set; }
-        public DateTime CreatedTimeOn { get; set; } = DateTime.Now;
+        public DateTime CreatedOn { get; set; } = DateTime.Now;
         public DateTime? lastupdatedOn { get; set; }
 
 
